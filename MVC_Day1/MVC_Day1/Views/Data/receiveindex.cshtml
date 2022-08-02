@@ -1,0 +1,15 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewBag.Title = "receiveindex";
+}
+
+<h2>receiveindex</h2>
+
+<h2> Flowers from Temp Data Object</h2>
+
+@foreach (var f in TempData["flowers"] as List<string>)
+{
+    <p>@f</p>
+}

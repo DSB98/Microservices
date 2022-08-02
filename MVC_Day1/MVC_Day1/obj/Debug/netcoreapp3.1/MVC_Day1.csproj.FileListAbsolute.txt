@@ -40,3 +40,5 @@ C:\Users\Pramod\source\repos\MVC_Day1\MVC_Day1\obj\Debug\netcoreapp3.1\MVC_Day1.
 C:\Users\Pramod\source\repos\MVC_Day1\MVC_Day1\obj\Debug\netcoreapp3.1\Razor\Views\Demo\Contents.cshtml.g.cs
 C:\Users\Pramod\source\repos\MVC_Day1\MVC_Day1\obj\Debug\netcoreapp3.1\Razor\Views\Demo\ViewResultMethod.cshtml.g.cs
 C:\Users\Pramod\source\repos\MVC_Day1\MVC_Day1\obj\Debug\netcoreapp3.1\Razor\Views\Hr\ListEmployee.cshtml.g.cs
+C:\Users\Pramod\source\repos\MVC_Day1\MVC_Day1\obj\Debug\netcoreapp3.1\Razor\Views\Hr\DisplayEmployee.cshtml.g.cs
+C:\Users\Pramod\source\repos\MVC_Day1\MVC_Day1\obj\Debug\netcoreapp3.1\Razor\Views\Hr\ListDepartment.cshtml.g.cs
