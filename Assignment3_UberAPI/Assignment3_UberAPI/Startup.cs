@@ -42,7 +42,7 @@ namespace Assignment3_UberAPI
 
             app.UseHttpsRedirection();
 
-            app.UseRouting();
+            app.UseRouting(); 
 
             app.UseAuthorization();
 
@@ -50,7 +50,7 @@ namespace Assignment3_UberAPI
             {
                 endpoints.MapControllers();
             });
-            app.UseOcelot().Wait();
+             app.UseOcelot().Wait();
         }
     }
 }

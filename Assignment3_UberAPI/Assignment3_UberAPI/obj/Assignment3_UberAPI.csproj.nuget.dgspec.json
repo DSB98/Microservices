@@ -43,6 +43,10 @@
             "Ocelot": {
               "target": "Package",
               "version": "[15.0.7, )"
+            },
+            "Ocelot.Cache.CacheManager": {
+              "target": "Package",
+              "version": "[15.0.7, )"
             }
           },
           "imports": [
