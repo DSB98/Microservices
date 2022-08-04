@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductServices", "ProductS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerServices", "CustomerServices\CustomerServices.csproj", "{9C87A621-A90B-4299-A4FB-D0578CD58B65}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopingGateways", "ShopingGateways\ShopingGateways.csproj", "{2EDEE2C0-830B-4BD1-863B-4EC27808B8EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9C87A621-A90B-4299-A4FB-D0578CD58B65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C87A621-A90B-4299-A4FB-D0578CD58B65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C87A621-A90B-4299-A4FB-D0578CD58B65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EDEE2C0-830B-4BD1-863B-4EC27808B8EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EDEE2C0-830B-4BD1-863B-4EC27808B8EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EDEE2C0-830B-4BD1-863B-4EC27808B8EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EDEE2C0-830B-4BD1-863B-4EC27808B8EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

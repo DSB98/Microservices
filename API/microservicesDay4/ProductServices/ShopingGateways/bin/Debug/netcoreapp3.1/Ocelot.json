@@ -1,0 +1,29 @@
+{
+  "ReRoutes": [
+    {
+      "DownStreamPathTemplate": "/api/Products",
+      "DownStreamSchema": "https",
+      "DownStreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44325
+        }
+      ],
+      "UpStreamPathTemplate": "/apigateway/ProductService",
+      "UpStreamHttpMethod": [ "Get", "Put", "Post" ]
+
+    },
+    {
+      "DownStreamPathTemplate": "/api/Customers",
+      "DownStreamSchema": "https",
+      "DownStreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44366
+        }
+      ],
+      "UpStreamPathTemplate": "/apigateway/CustomerService",
+      "UpStreamHttpMethod": [ "Get", "Put", "Post" ]
+    }
+  ]
+}

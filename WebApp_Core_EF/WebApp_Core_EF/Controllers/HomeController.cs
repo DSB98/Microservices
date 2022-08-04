@@ -81,6 +81,12 @@ namespace WebApp_Core_EF.Controllers
         //    return View(employee);
         //}
 
+        public ActionResult Edit(int? id)
+        {
+            
+            return View();
+        }
+
 
 
 
