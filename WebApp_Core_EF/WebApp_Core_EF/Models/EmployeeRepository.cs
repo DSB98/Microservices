@@ -7,7 +7,7 @@ namespace WebApp_Core_EF.Models
 {
     public class EmployeeRepository : IEmployeeRepository
     {
-        private readonly EmployeeDBContext db;
+        public readonly EmployeeDBContext db;
         public EmployeeRepository(EmployeeDBContext context)
         {
             db = context;
@@ -46,18 +46,19 @@ namespace WebApp_Core_EF.Models
 
         public Employee UpdateEmployee(Employee employeechanges)
         {
-            var employee = db.Employees.Attach(employeechanges);
-            employee.State = Microsoft.EntityFrameworkCore.EntityState.Modified;
-            db.SaveChanges();
-            return employeechanges;
+            //var employee = db.Employees.Attach(employeechanges);
+            //employee.State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+            //db.SaveChanges();
+            //return employeechanges;
 
             //Alternatively we can check individual property state
 
-            //db.Employees.Attach(employeechanges);
-            //var entry = db.Entry(employeechanges);
-            //entry.Property(e => e.Name).IsModified = true;
-            ////same way for all properties
-            //entry.State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+            db.Employees.Attach(employeechanges);
+            var entry = db.Entry(employeechanges);
+            entry.Property(e => e.Name).IsModified = true;
+            //same way for all properties
+           // entry.State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+            return employeechanges;
         }
     }
 }

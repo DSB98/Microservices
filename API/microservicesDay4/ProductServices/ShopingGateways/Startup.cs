@@ -50,7 +50,7 @@ namespace ShopingGateways
                 endpoints.MapControllers();
             });
 
-            app.UseOcelot().Wait();
+            app.UseOcelot().Wait(); 
         }
     }
 }

@@ -81,10 +81,16 @@ namespace WebApp_Core_EF.Controllers
         //    return View(employee);
         //}
 
-        public ActionResult Edit(int? id)
+        public ActionResult Edit(Employee emp)
         {
-            
-            return View();
+            var model = emprepo.UpdateEmployee(emp);
+            return View(model);
+        }
+
+        public ActionResult Delete(int id)
+        {
+            var model = emprepo.DeleteEmployee(id);
+            return View(model);
         }
 
 
